@@ -56,7 +56,7 @@ local Mouse = LP:GetMouse()
 
 local Locked = true
 
-getgenv().Key = "c"
+getgenv().Key = "e"
 
 
 function FindNearestEnemy()
