@@ -58,6 +58,15 @@ rootPart.CFrame = CFrame.new(-5.54262447, 74.9980011, -161.401596, 0.172353715, 
 })
 
 local Button = TeleportTab:CreateButton({
+   Name = "Crystal anime baddie rng",
+   Callback = function()
+            local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = CFrame.new(270.680054, 116.998001, -174.069778, 0.600773513, -7.24161467e-14, 0.799419284, -4.46320803e-09, 1, 3.35424666e-09, -0.799419284, -5.58311708e-09, 0.600773513)
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = TeleportTab:CreateButton({
    Name = "button 1 anime baddie rng",
    Callback = function()
             local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
