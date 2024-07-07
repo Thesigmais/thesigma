@@ -58,7 +58,7 @@ rootPart.CFrame = CFrame.new(-5.54262447, 74.9980011, -161.401596, 0.172353715, 
 })
 
 local Button = TeleportTab:CreateButton({
-   Name = "Black nigger",
+   Name = "Black negro",
    Callback = function()
             local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
 rootPart.CFrame = CFrame.new(338.190735, 157.997986, -113.603424, -0.403213084, 7.50239337e-08, -0.915106118, -3.97854443e-08, 1, 9.95140823e-08, 0.915106118, 7.65332828e-08, -0.403213084)
