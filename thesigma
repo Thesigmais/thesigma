@@ -239,7 +239,7 @@ getgenv().Prediction = 0.157
    end,
 })
 
-local Button = TeleportTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Explorer",
    Callback = function()
             local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -248,7 +248,7 @@ rootPart.CFrame = CFrame.new(270.680054, 116.998001, -174.069778, 0.600773513, -
    end,
 })
 
-local Button = TeleportTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "button 1 anime baddie rng",
    Callback = function()
             local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -257,7 +257,7 @@ rootPart.CFrame = CFrame.new(327.509918, 108.498001, -34.8939667, 0.404285342, 3
    end,
 })
 
-local Button = TeleportTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "the second button anime baddie rng",
    Callback = function()
             local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -266,7 +266,7 @@ rootPart.CFrame = CFrame.new(289.544556, 108.498001, 97.378746, -0.973410428, 1.
    end,
 })
 
-local Button = TeleportTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "trap thing teleport anime baddie rng",
    Callback = function()
             local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -275,7 +275,7 @@ rootPart.CFrame = CFrame.new(362.77887, 110.998001, 119.988068, -0.990330398, 2.
    end,
 })
 
-        local Button = TeleportTab:CreateButton({
+        local Button = MainTab:CreateButton({
    Name = "Uphill Guns",
    Callback = function()
                     local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -286,7 +286,7 @@ rootPart.CFrame = CFrame.new(481.710602, 48.0030136, -601.716614, 0.99922353, 4.
 
 local ScriptsTab = Window:CreateTab("Hubs", 4483362458) -- Title, Image
 
-local Button = ScriptsTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "SwagMode",
    Callback = function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
@@ -294,7 +294,7 @@ local Button = ScriptsTab:CreateButton({
    end,
 })
 
-local Button = ScriptsTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Nuty",
    Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Qrto1/working/main/pc"))()
@@ -302,7 +302,7 @@ local Button = ScriptsTab:CreateButton({
    end,
 })
 
-local Button = ScriptsTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Azure modded",
    Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
@@ -310,7 +310,7 @@ local Button = ScriptsTab:CreateButton({
    end,
 })
 
-local Button = ScriptsTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Chat Bypass key is P1d#uT",
    Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/vqmpjayZ/Bypass/8e92f1a31635629214ab4ac38217b97c2642d113/vadrifts"))()
@@ -320,4 +320,4 @@ local Button = ScriptsTab:CreateButton({
 
 local MainTab = Window:CreateTab("Teleports", nil) -- Title, Image
 
-local MainTab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
+local MainTab = Window:CreateTab("Scripts", nil) -- Title, Image
