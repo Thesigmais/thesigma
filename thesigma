@@ -318,6 +318,6 @@ local Button = ScriptsTab:CreateButton({
    end,
 })
 
-local TeleportTab = Window:CreateTab("Teleports", nil) -- Title, Image
+local MainTab = Window:CreateTab("Teleports", nil) -- Title, Image
 
-local ScriptsTab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
+local MainTab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
